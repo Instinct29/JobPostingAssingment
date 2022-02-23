@@ -59,7 +59,11 @@ form input {
     width: 75%;
 }
 
-.test{
+form p {
+    color:red;
+}
+
+/* .test{
     color: black;
     text-align: center;
-}
+} */
