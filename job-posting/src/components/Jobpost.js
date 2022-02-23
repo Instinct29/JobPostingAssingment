@@ -90,7 +90,7 @@ function Jobpost(){
            <br />
 
            <label>Years of experience</label>
-           <select name="Experience" id="" onChange={changeHandler} >
+           <select className="date" name="Experience" id="" onChange={changeHandler} >
                <option value="2 months">0 Months - 1 Year</option>
                <option value="3 months">More than 1 Year</option>
                <option value="3 months">More than 5 Year</option>
@@ -107,7 +107,7 @@ function Jobpost(){
            </article>
 
            <label >Category</label>
-           <select name="Category" id="" onChange={changeHandler}>
+           <select className="date" name="Category" id="" onChange={changeHandler}>
                <option value="SDE">SDE</option>
                <option value="Testing engineer">Testing engineer</option>
                <option value="Data science">Data science</option>
@@ -116,7 +116,7 @@ function Jobpost(){
            </select>
 
            <label >FunctionalArea</label>
-           <select name="Functional Area" id="" onChange={changeHandler}>
+           <select className="date" name="Functional Area" id="" onChange={changeHandler}>
                <option value="frontend">Frontend</option>
                <option value="backend">Backend</option>
                <option value="fullstack">FullStack</option>
@@ -136,7 +136,7 @@ function Jobpost(){
 
         
 
-           <button >Submit</button>
+           <button className="btn button3 ">Submit</button>
            <br />
            <hr />
         
